@@ -1,0 +1,93 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+// can add Boostrap overrides, additional Sass/CSS below...
+
+img {
+    width: 33%;
+    border: 4px solid #337AB7;
+}
+
+.dialog {
+    &-one {
+        &__view {
+            margin-top: 20px;
+            width: 500px;
+            // height: 400px;
+            text-align: left;
+            background-color: lightcyan;
+        }
+        &__title {
+            text-align: left;
+            background-color: lightgreen;
+        }
+        &__content {
+            text-align: left;
+            background-color: lightblue;
+        }
+        &__actions {
+            text-align: left;
+            background-color: lightcoral;
+        }
+    }
+    &-two {
+        &__view {
+            width: 400px;
+            height: 328px;
+            text-align: left;
+            background-color: #BF360C;
+        }
+        &__title {
+            text-align: left;
+            background-color: #E64A19;
+        }
+        &__content {
+            height: 62%;
+            text-align: left;
+            background-color: #FF8A65;
+        }
+        &__actions {
+            text-align: left;
+            background-color: #FFCCBC
+;
+        }
+    }
+}
+
+.poem {
+    font-family: Times New Roman;
+    font-style: italic;
+    color: black;
+
+    &-author {
+        margin-top: 1em;
+        margin-bottom: -1.5em;
+        text-align: right;
+        text-transform: uppercase;
+    }
+}
+
+
+// dialog + .backdrop {
+//     background: rgba(0,0,0,0.5);
+// }
+
+// .mdl-dialog {
+//     border: none;
+//     box-shadow: 0 9px 46px 8px rgba(0,0,0,.14), 0 11px 15px -7px rgba(0,0,0,.12), 0 24px 38px 3px rgba(0,0,0,.2);
+//     width: 280px;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
