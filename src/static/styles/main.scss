@@ -79,7 +79,19 @@ img {
 //     width: 280px;
 // }
 
+// https://github.com/GoogleChrome/dialog-polyfill
+// dialog::backdrop { /* native */
+//   background-color: green;
+// }
+// dialog + .backdrop { /* polyfill */
+//   background-color: green;
+// }
 
+// dialog {
+//   position: fixed;
+//   top: 50%;
+//   transform: translate(0, -50%);
+// }
 
 
 
